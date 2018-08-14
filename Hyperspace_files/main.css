@@ -3906,3 +3906,11 @@ input, select, textarea {
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
+.map{
+	width: 800px;
+	height: 500px;
+	background-color: red;
+	display: block;
+	margin: auto;
+	padding: 0;
+}
