@@ -12,22 +12,25 @@
 	</noscript>
 </head>
 <script>
-function initMap() {
-        var myLatLng = {lat:41.042453, lng:  29.009494};
+	function initMap() {
+		var myLatLng = {
+			lat: 41.042453,
+			lng: 29.009494
+		};
 
-        // Create a map object and specify the DOM element
-        // for display.
-        var map = new google.maps.Map(document.getElementById('map'), {
-          center: myLatLng,
-          zoom: 4
-        });
+		// Create a map object and specify the DOM element
+		// for display.
+		var map = new google.maps.Map(document.getElementById('map'), {
+			center: myLatLng,
+			zoom: 4
+		});
 
-        // Create a marker and set its position.
-        var marker = new google.maps.Marker({
-          map: map,
-          position: myLatLng,
-        });
-      }
+		// Create a marker and set its position.
+		var marker = new google.maps.Marker({
+			map: map,
+			position: myLatLng,
+		});
+	}
 </script>
 <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 
@@ -39,31 +42,31 @@ function initMap() {
 			<nav>
 
 				<ul>
-						<img  id="postgresql-sql" src="images/icons8-postgresql-96.png" >
+					<img id="postgresql-sql" src="images/icons8-postgresql-96.png">
 
 					<li>
 
 						<a href="#intro" class="scrolly active">Ana Sayfa</a>
 					</li>
 					<li>
-							<a href="#katılımCagrısı" class="scrolly">Katılım Çağrısı</a>
-						</li>
+						<a href="#katılımCagrısı" class="scrolly">Katılım Çağrısı</a>
+					</li>
 					<li>
 						<a href="#sıkcaSorulanSorular" class="scrolly">Sıkça Sorulan Sorular</a>
 					</li>
-					
+
 					<li>
 						<a href="#sponsorlar" class="scrolly">Sponsorlar</a>
 					</li>
 					<li>
-							<a href="#iletisim" class="scrolly">İletişim</a>
+						<a href="#iletisim" class="scrolly">İletişim</a>
 					</li>
 					<li>
-							<a href="#tesekkurler" class="scrolly">Teşekkürler</a>
+						<a href="#tesekkurler" class="scrolly">Teşekkürler</a>
 					</li>
 					<li>
 						<a href="#ulasım" class="scrolly">Ulaşım</a>
-				</li>
+					</li>
 
 				</ul>
 			</nav>
@@ -75,8 +78,8 @@ function initMap() {
 
 		<!-- Intro -->
 		<section id="intro" class="wrapper style1 fullscreen fade-up">
-			<div class="inner " >
-				
+			<div class="inner ">
+
 				<h1>5. PostgreSQL Türkiye Konferansı</h1>
 				<p>PostgreSQL Kullanıcıları Derneği, 5. Türkiye PostgreSQL Konferansını, ilk iki konferansımızda da evsahibimiz olan Bahçeşehir
 					Üniversitesi'nin desteği ile 22 Eylül 2018'de Beşiktaş Kampüsü'nde düzenliyor.</p>
@@ -85,9 +88,9 @@ function initMap() {
 						<a href="#one" class="button scrolly">Daha fazla</a>
 					</li>
 				</ul>
-		</div>
+			</div>
 		</section>
-		
+
 		<!-- katılım çağrısı -->
 		<section id="katılımCagrısı" class="wrapper style1 fullscreen fade-up">
 			<div class="inner">
@@ -139,33 +142,33 @@ function initMap() {
 		</section>
 		<!-- Sıkça Sorulan Sorular -->
 		<section id="sıkcaSorulanSorular" class="wrapper style1 fullscreen fade-up">
-				<div class="inner">
-					<h2>Sıkça Sorulan Sorular</h2>
-					<p>PostgreSQL Kullanıcıları Derneği, 5. Türkiye PostgreSQL Konferansını, ilk iki konferansımızda da evsahibimiz olan Bahçeşehir
-						Üniversitesi'nin desteği ile 22 Eylül 2018'de Beşiktaş Kampüsü'nde düzenliyor.</p>
-					<h5>Neden PGDay?</h5>
-					<p>PGDay,
-						<a href="https://www.postgresql.eu/">PostgreSQL Europe</a>'un "
-						<a href="https://www.postgresql.eu/about/trademarks/">markalarından</a> birisidir. Marka alınırken, konferansların
-						<a href="https://www.postgresql.org/community/recognition/#conferences">belirli bir kalite ve standartta olmasını zorunlu kılmışlardır</a>. Biz de konferansımızda bu kriterlere uyacağımızı
-						tahahhüt ediyoruz.</p>
-					<h5>Konferansa katılım ücretsiz mi?</h5>
-					<p>Evet, ücretsiz.</p>
-					<h5>Konferansa katılım için kayıt yaptırmama gerek var mı?</h5>
-					<p>Evet. Konferans kaydınızı
-						<a href="https://www.postgresql.org/account/auth/3/?d=8_MdTs6OLP_Va8HR13koog==$9HmTwqBQOWTeLRmnte7kHz-pSu8OrPdKymDrDsvsQWKG0IJNbQ42H-_xQcUOtjaDuNTdye0WBuhA2FrabOPyNw==">buradan</a> yapabilirsiniz.</p>
-					<h5>Konferans alanına nasıl gidebilirim?</h5>
-					<p>Ulaşım bilgisi burada.</p>
-					<h4>Sponsorluk</h4>
-					<p>PostgreSQL Türkiye Konferanslarımız bugüne kadar tüm katılımcılara ücretsiz olmuştur. Bunu ev sahiplerimize ve sponsorlarımıza
-						borçluyuz. Bu yıl da yine sponsorlarımızın desteğini bekliyoruz. Sponsorluk dosyasına
-						<a href="https://2018.pgday.istanbul/PGDay.Istanbul-2018-SponsorDosyasi.pdf">buradan</a> ulaşabilirsiniz.</p>
-					<h5>Sunum Çağrısı</h5>
-					<p>Sunum çağrısını yakında duyuracağız.</p>
-				</div>
-			</section>
+			<div class="inner">
+				<h2>Sıkça Sorulan Sorular</h2>
+				<p>PostgreSQL Kullanıcıları Derneği, 5. Türkiye PostgreSQL Konferansını, ilk iki konferansımızda da evsahibimiz olan Bahçeşehir
+					Üniversitesi'nin desteği ile 22 Eylül 2018'de Beşiktaş Kampüsü'nde düzenliyor.</p>
+				<h5>Neden PGDay?</h5>
+				<p>PGDay,
+					<a href="https://www.postgresql.eu/">PostgreSQL Europe</a>'un "
+					<a href="https://www.postgresql.eu/about/trademarks/">markalarından</a> birisidir. Marka alınırken, konferansların
+					<a href="https://www.postgresql.org/community/recognition/#conferences">belirli bir kalite ve standartta olmasını zorunlu kılmışlardır</a>. Biz de konferansımızda bu kriterlere uyacağımızı
+					tahahhüt ediyoruz.</p>
+				<h5>Konferansa katılım ücretsiz mi?</h5>
+				<p>Evet, ücretsiz.</p>
+				<h5>Konferansa katılım için kayıt yaptırmama gerek var mı?</h5>
+				<p>Evet. Konferans kaydınızı
+					<a href="https://www.postgresql.org/account/auth/3/?d=8_MdTs6OLP_Va8HR13koog==$9HmTwqBQOWTeLRmnte7kHz-pSu8OrPdKymDrDsvsQWKG0IJNbQ42H-_xQcUOtjaDuNTdye0WBuhA2FrabOPyNw==">buradan</a> yapabilirsiniz.</p>
+				<h5>Konferans alanına nasıl gidebilirim?</h5>
+				<p>Ulaşım bilgisi burada.</p>
+				<h4>Sponsorluk</h4>
+				<p>PostgreSQL Türkiye Konferanslarımız bugüne kadar tüm katılımcılara ücretsiz olmuştur. Bunu ev sahiplerimize ve sponsorlarımıza
+					borçluyuz. Bu yıl da yine sponsorlarımızın desteğini bekliyoruz. Sponsorluk dosyasına
+					<a href="https://2018.pgday.istanbul/PGDay.Istanbul-2018-SponsorDosyasi.pdf">buradan</a> ulaşabilirsiniz.</p>
+				<h5>Sunum Çağrısı</h5>
+				<p>Sunum çağrısını yakında duyuracağız.</p>
+			</div>
+		</section>
 		<!-- Sponsorlar -->
-		<section id="sponsorlar"  class="wrapper style1 fullscreen fade-up">
+		<section id="sponsorlar" class="wrapper style1 fullscreen fade-up">
 			<div class="inner">
 				<h1>Sponsorlar</h1>
 				<p>PostgreSQL Türkiye Konferanslarımız bugüne kadar tüm katılımcılara ücretsiz olmuştur. Bunu ev sahiplerimize ve sponsorlarımıza
@@ -175,84 +178,107 @@ function initMap() {
 						<a href="https://2018.pgday.istanbul/PGDay.Istanbul-2018-SponsorDosyasi.pdf" class="button scrolly">Sponsorluk Dosyası</a>
 					</li>
 				</ul>
-				<h3>Platinum Sponsorlarımız</h3>
-				<ul style="list-style: none">
-					<li ><img src="images/bilgem_kapali.jpg" style="width: 100px; height: 100px;"></li>
-					<li><img src="images/citusdata -logo-560x250.jpg" style="width: 100px; height: 100px;"></li>
-					<li><img src="images/2ndquadrant-logo.jpg" style="width: 100px; height: 100px;"></li>
-				</ul>
-				<h3>Altın Sponsorlarımız</h3>
-				<ul style="list-style: none">
-					<li></li>
-					<li></li>
-					<li></li>
-				</ul>
-				<h3>Gümüş Sponsorlarımız</h3>
-				<ul style="list-style: none">
-						<li></li>
-						<li></li>
-						<li></li>
-					</ul>
-				<h3>Bronz Sponsorlarımız</h3>
-				<ul style="list-style: none">
-						<li><img src="images/hepsiexpress-logo.png" style="width: 100px; height: 100px;"></li>
-						<li></li>
-						<li></li>
-					</ul>
-			</div>
+				<div id="Platinum">
+						<h2>Platinum Sponsorlarımız</h2>
+						<ul style="list-style: none">
+							<li>
+								<img src="images/bilgem_kapali.jpg" style="width: 100px; height: 100px;">
+							</li>
+							<li>
+								<img src="images/citusdata -logo-560x250.jpg" style="width: 100px; height: 100px;">
+							</li>
+							<li>
+								<img src="images/2ndquadrant-logo.jpg" style="width: 100px; height: 100px;">
+							</li>
+						</ul>
+					</div>
+				<div class="sponsorlar" >
+					<div class="sidebyside-sponsor" id="Altın" >
+						<h3>Altın Sponsorlarımız</h3>
+						<ul style="list-style: none">
+								
+						</ul>
+					</div>
+						<div class="sidebyside-sponsor" id="Gümüş">
+							<h3>Gümüş Sponsorlarımız</h3>
+							<ul style="list-style: none">
+									
+							</ul>
+						</div>
+					
+					<div class="sidebyside-sponsor"  id="Bronz">
+						<h3>Bronz Sponsorlarımız</h3>
+						<ul style="list-style: none">
+							<li>
+								<img src="images/hepsiexpress-logo.png" style="width: 100px; height: 100px;">
+							</li>
+							
+						</ul>
+					</div>
+
+				</div>
 		</section>
 		<!-- İletişim -->
 		<section id="iletisim" class="wrapper style1 fullscreen fade-up">
-				<div class="inner">
-					<h1>PostgreSQL Konferansı - 2018 - İletişim</h1>
-					<p>Sponsorluk için: sponsor ~~at~~ pgday . istanbul adresine e-posta gönderebilirsiniz.</p>
-					<p>Sorularınız ve dilekleriniz için: organizasyon ~~at~~ pgday . istanbul adresine e-posta gönderebilirsiniz.</p>
-					<h2>Sosyal Media</h2>
-					<p><strong>Twitter:</strong><a href="https://twitter.com/PgDayTR"> @PgDayTR</a></p>
-					<p><strong>Tuxtweet:</strong> <a href="http://tuxweet.linux.org.tr/PGDayTR"> @PgDayTR</a></p>
-					<p><strong>Facebook Etkinliği:</strong> <a href="https://www.facebook.com/events/124884897590235/">Konferansın Facebook Etkinlik Sayfası</a></p>
-				</div>
-			</section>
-			<!-- teşekkürler -->
-			<section id="tesekkurler" class="wrapper style1 fullscreen fade-up">
-					<div class="inner">
-						<h1>Teşekkürler</h1>
-						<h3>Özel teşekkürler:</h3>
-						<lu>
-							<li>Prof. Dr. Nafiz Arıca: BAÜ Mühendislik Fakültesi Dekanı</li>
-							<li>Oğuzhan Süral: BAÜ Mütevelli Heyet Başkan Danışmanı</li>
-						</lu>
-						<h3>Bahçeşehir Üniversitesi IEEE Kulübü ve Yazılım ve Bilişim Kulübü başkan ve üyeleri:</h3>
-						<lu>
-							<li>Şahin Özkul</li>
-							<li>Berkay Doğan</li>	
-							<li>Bahadır Can Çalışkan</li>
-							<li>Ege Köprülü</li>
-							<li>Hakan Suzer</li>
-							<li>Didem Akgün</li>
-							<li>Mina Yillik</li>
-							<li>Alperen Kan</li>
-							<li>Ekin Doğa Gül</li>
-							<li>Barış Perveroğlu</li>
-						</lu>
-						<h3>PostgreSQL Kullanıcıları Derneği</h3>
-						<lu>
-							<li>Şahap Aşçı</li>
-							<li>Devrim Gündüz</li>
-							<li>Mehmet Atıf Ceylan</li>
-							<li>Faruk Selman Lekesiz</li>
-						</lu>
-					</div>
-				</section>
-				<section id="ulasım" class="wrapper style1 fullscreen fade-up">
-					<div class="inner " >
-						<h2>Konferan Yeri</h2>
-						<p>PgDay bu yıl İstanbul Bahçeşehir Üniversitesi Beşiktaş Kampüsü Mühendislik Binası Konferans Salonu'nda yapılacaktır.</p>
-						<h3>Tam Adress</h3>
-						<p>Çırağan Caddesi Osmanpaşa Mektebi Sokak No: 4 - 6 Çırağan / Beşiktaş</p>
-						<div class="map" id="map"></div>
-				</div>
-				</section>
+			<div class="inner">
+				<h1>PostgreSQL Konferansı - 2018 - İletişim</h1>
+				<p>Sponsorluk için: sponsor ~~at~~ pgday . istanbul adresine e-posta gönderebilirsiniz.</p>
+				<p>Sorularınız ve dilekleriniz için: organizasyon ~~at~~ pgday . istanbul adresine e-posta gönderebilirsiniz.</p>
+				<h2>Sosyal Media</h2>
+				<p>
+					<strong>Twitter:</strong>
+					<a href="https://twitter.com/PgDayTR"> @PgDayTR</a>
+				</p>
+				<p>
+					<strong>Tuxtweet:</strong>
+					<a href="http://tuxweet.linux.org.tr/PGDayTR"> @PgDayTR</a>
+				</p>
+				<p>
+					<strong>Facebook Etkinliği:</strong>
+					<a href="https://www.facebook.com/events/124884897590235/">Konferansın Facebook Etkinlik Sayfası</a>
+				</p>
+			</div>
+		</section>
+		<!-- teşekkürler -->
+		<section id="tesekkurler" class="wrapper style1 fullscreen fade-up">
+			<div class="inner">
+				<h1>Teşekkürler</h1>
+				<h3>Özel teşekkürler:</h3>
+				<lu>
+					<li>Prof. Dr. Nafiz Arıca: BAÜ Mühendislik Fakültesi Dekanı</li>
+					<li>Oğuzhan Süral: BAÜ Mütevelli Heyet Başkan Danışmanı</li>
+				</lu>
+				<h3>Bahçeşehir Üniversitesi IEEE Kulübü ve Yazılım ve Bilişim Kulübü başkan ve üyeleri:</h3>
+				<lu>
+					<li>Şahin Özkul</li>
+					<li>Berkay Doğan</li>
+					<li>Bahadır Can Çalışkan</li>
+					<li>Ege Köprülü</li>
+					<li>Hakan Suzer</li>
+					<li>Didem Akgün</li>
+					<li>Mina Yillik</li>
+					<li>Alperen Kan</li>
+					<li>Ekin Doğa Gül</li>
+					<li>Barış Perveroğlu</li>
+				</lu>
+				<h3>PostgreSQL Kullanıcıları Derneği</h3>
+				<lu>
+					<li>Şahap Aşçı</li>
+					<li>Devrim Gündüz</li>
+					<li>Mehmet Atıf Ceylan</li>
+					<li>Faruk Selman Lekesiz</li>
+				</lu>
+			</div>
+		</section>
+		<section id="ulasım" class="wrapper style1 fullscreen fade-up">
+			<div class="inner ">
+				<h2>Konferan Yeri</h2>
+				<p>PgDay bu yıl İstanbul Bahçeşehir Üniversitesi Beşiktaş Kampüsü Mühendislik Binası Konferans Salonu'nda yapılacaktır.</p>
+				<h3>Tam Adress</h3>
+				<p>Çırağan Caddesi Osmanpaşa Mektebi Sokak No: 4 - 6 Çırağan / Beşiktaş</p>
+				<div class="map" id="map"></div>
+			</div>
+		</section>
 	</div>
 	<!-- Footer -->
 	<footer id="footer" class="wrapper style1-alt">

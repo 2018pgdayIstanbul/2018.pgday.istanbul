@@ -3909,8 +3909,53 @@ input, select, textarea {
 .map{
 	width: 800px;
 	height: 500px;
-	background-color: red;
 	display: block;
 	margin: auto;
 	padding: 0;
 }
+.sponsorlar{
+	text-align: center !important;
+	overflow: auto;
+}
+
+.sponsorlar  div {
+	display: inline-block !important;
+	margin: auto !important;
+	padding: 25px;
+}
+
+
+.sponsorlar  div  ul li{
+	padding: 25px;
+}
+
+#Platinum{
+	display: block;
+	padding: 0;
+	margin: auto;
+	text-align: center,
+}
+#Platinum h2{
+	text-align: center;
+}
+#Platinum ul li {
+	display: inline;
+	text-align: center;
+	padding: 25px;
+}
+#Platinum ul {
+	text-align: center;
+}
+#Altın{
+	display: block;
+
+}
+#Gümüş{
+	display: block;
+
+}
+#Bronz{
+	display: block;
+
+}
+
