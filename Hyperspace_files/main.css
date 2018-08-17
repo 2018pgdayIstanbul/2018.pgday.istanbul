@@ -3625,7 +3625,7 @@ body.is-preload #sidebar nav ul li {
 #sıkcaSorulanSorular {
 	background-attachment: fixed;
 	background-position: top right;
-	background-image: url("bahcesehir-1.jpg");
+	background-image: url("bahcesehir-2.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
@@ -3634,6 +3634,13 @@ body.is-preload #sidebar nav ul li {
 	background-attachment: fixed;
 	background-position: top right;
 	background-image: url("istanbul-5.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+#tesekkurler {
+	background-attachment: fixed;
+	background-position: top right;
+	background-image: url("konferans-salonu-bos-o.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
