@@ -92,7 +92,6 @@ video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-	background-image: url("images/istanubul-1.jpg")
 }
 
 article,
@@ -1640,7 +1639,7 @@ button,
 	transition: border-color 0.2s ease;
 	background-color: transparent;
 	border: solid 1px !important;
-	border-color: rgba(255, 255, 255, 0.15) !important;
+	border-color: rgba(255, 255, 255, 0.5) !important;
 	border-radius: 3em;
 	color: #ffffff !important;
 	cursor: pointer;
@@ -2989,7 +2988,6 @@ table.alt tfoot {
 
 .wrapper.style1 {
 	background-color: #4167a6;
-	background-image: url("Hyperspace_files/istanbul-2.jpg")
 }
 
 .wrapper.style1-alt {
@@ -3595,9 +3593,9 @@ body.is-preload #sidebar nav ul li {
 #intro {
 	background-attachment: fixed;
 	background-position: top right;
-	background-image: url("istanbul-1-s.jpg");
+	background-image: url("../images/istanbul-header.jpg");
 	background-repeat: no-repeat;
-	background-size: 100% 100%;
+	background-size: cover;
 }
 
 #intro p {
@@ -3653,83 +3651,45 @@ body.is-preload #sidebar nav ul li {
 	padding: 0;
 }
 
-.sponsorlar {
-	text-align: center !important;
-	overflow: auto;
+
+#sponsorlar ul.sponsorlar {
+	text-align: center;
+	list-style: none;
+	background: #fff;
+	width: 100%;
+	padding: 40px;
+	border-radius: 0.3rem;
 }
 
-.sponsorlar div {
-	display: inline-block !important;
-	margin: auto !important;
-	padding: 25px;
-}
-
-#sponsorlar div ul li {
-	cursor: pointer;
-	
-}
-
-#sponsorlar div ul li a  :hover{
-	animation: li-animation-forward;
-	animation-duration: .3s;
-	animation-fill-mode: forwards;
-	
-}
-
-
-.sponsor-img{
-	animation: li-animation-backward;
-	animation-duration: .5s;
-	animation-fill-mode: forwards;
-}
-.sponsor-img:hover{
-	animation: li-animation-forward;
-	animation-duration: .3s;
-	animation-fill-mode: forwards;
-}
-#Platinum {
-	display: block;
-	padding: 0;
+#sponsorlar ul.sponsorlar li {
 	margin: auto;
-	text-align: center,
+	border-radius: 0.3rem;
+	padding: 10px;
+	cursor: pointer;
+	display: inline-block;
+	margin-right: 20px;
 }
 
-#Platinum h2 {
-	text-align: center;
+#sponsorlar ul.sponsorlar li:hover {
+	animation: li-animation-forward;
+	animation-duration: .3s;
+	animation-fill-mode: forwards;
 }
 
-#Platinum ul li {
-	display: inline;
-	text-align: center;
-	padding: 25px;
+#sponsorlar ul.sponsorlar li img {
+	max-width: 100%;
 }
 
-#Platinum ul {
-	text-align: center;
+@media screen and (max-width: 768px){
+	#sponsorlar ul.sponsorlar li {
+		margin-right: 0;
+	}
 }
 
-#Altın {
-	display: block;
-	height: 100%;
+.kurul-uye-image {
+	height: 400px;
+	border-radius: 5px;
 }
-
-#Gümüş {
-	display: block;
-}
-
-#Bronz {
-	display: block;
-}
-
-a{
-	border: none;
-}
-
-
-
-
-
-
 
 /*Animations*/
 @keyframes li-animation-forward{
