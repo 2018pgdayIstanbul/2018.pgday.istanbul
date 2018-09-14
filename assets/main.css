@@ -3680,6 +3680,14 @@ body.is-preload #sidebar nav ul li {
 	max-width: 100%;
 }
 
+#etkinlik-programi td {
+  text-align : center
+}
+
+#etkinlik-programi th {
+  text-align : center
+}
+
 @media screen and (max-width: 768px){
 	#sponsorlar ul.sponsorlar li {
 		margin-right: 0;
